@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+#wrapper
+{
+ margin:200px;
+}
+#table1
+{
+  border: solid black;
+  border-radius:8px;
+}
+#button
+{
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  height:70px;
+  width:70px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 4px 4px black;
+}
+
+</style>
+<script type="text/javascript" src="cal.js">
+</script>
+</head>
+<body>
+<center>
+<form name="f1" id="f1" >
+<div id="wrapper">
+<table border="2" id="table1">
+<tr rowspan="3"><td colspan="4"><input type="text" name="field" id="field" size="27"/></td></tr>
+<tr></tr>
+<tr></tr>
+
+<tr><td><input type="button" id="button" name="b1" value="1"  onclick="button1()" style="color:black; background-color:#DCDCDC;"></td>
+<td><input type="button" name="b2" id="button"  value="2" onclick="button2()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b3" id="button"  value="3" onclick="button3()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b4" id="button"  value="+" onclick="button4()" style="color:black;  background-color:#808080;"></td></tr>
+<tr>
+<td><input type="button" name="b5" value="4" id="button" onclick="button5()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b6" value="5" id="button" onclick="button6()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b7" value="6" id="button" onclick="button7()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b8" value="-" id="button" onclick="button8()" style="color:black;  background-color:#808080;"></td>
+</tr>
+<tr>
+<td><input type="button" name="b9" value="7" id="button" onclick="button9()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b12" value="8" id="button" onclick="button10()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b13" value="9" id="button" onclick="button11()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b14" value="*" id="button" onclick="button12()" style="color:black;  background-color:#808080;"></td>
+</tr>
+<tr>
+<td><input type="button" name="b15" value="0" id="button" onclick="button13()" style="color:black;  background-color:#DCDCDC;"></td>
+<td><input type="button" name="b16" value="C" id="button" onclick="button14()" style="color:black;  background-color:#808080;"></td>
+<td><input type="button" name="b17" value="=" id="button" onclick="button15()" style="color:black; background-color:#4682B4;"></td>
+<td><input type="button" name="b18" value="/" id="button" onclick="button16()" style="color:black;  background-color:#808080;"></td>
+</tr>
+</table>
+</div>
+</form>
+</center>
+</body>
+</html>
